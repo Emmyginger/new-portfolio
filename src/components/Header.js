@@ -21,7 +21,7 @@ const Header = ({ theme, toggleTheme }) => {
       transition={{ duration: 0.5 }}
       className={`header ${scrolled ? 'scrolled' : ''}`}
     >
-      <a href="#" className="logo">Your Name</a>
+      <a href="#" className="logo">Israel Orizu</a>
       <div className="header-right">
         <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
         <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer"><FaGithub /></a>

@@ -20,7 +20,7 @@ const About = () => {
                 transition={{ duration: 0.8 }}
                 viewport={{ once: true }}
             >
-                <img src={profilePicture} alt="Your Name" />
+                <img src={profilePicture} alt="Israel" />
             </motion.div>
             <motion.div 
                 className="about-text"
