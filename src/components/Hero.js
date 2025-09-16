@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import MyCV from '../assets/resume/My_CV.pdf'; 
+import MyCV from '../assets/resume/my_cv.pdf'; 
 
 const Hero = () => {
   return (

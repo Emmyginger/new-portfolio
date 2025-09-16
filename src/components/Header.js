@@ -23,11 +23,11 @@ const Header = ({ theme, toggleTheme }) => {
     >
       <a href="#" className="logo">Israel Orizu</a>
       <div className="header-right">
-        <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
-        <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
-        <a href="https://facebook.com/yourprofile" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
-        <a href="https://wa.me/yourphonenumber" target="_blank" rel="noopener noreferrer"><FaWhatsapp /></a>
-        <a href="mailto:youremail@example.com"><HiOutlineMail /></a>
+        <a href="https://www.linkedin.com/in/israel-orizu-7467b0209/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+        <a href="https://github.com/Emmyginger" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+        <a href="https://facebook.com/israel.orizu" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
+        <a href="https://wa.me/2348103306063" target="_blank" rel="noopener noreferrer"><FaWhatsapp /></a>
+        <a href="mailto:israelorizu@gmail.com"><HiOutlineMail /></a>
         <button onClick={toggleTheme} className="theme-switcher">
           {theme === 'light' ? <FaMoon /> : <FaSun />}
         </button>
