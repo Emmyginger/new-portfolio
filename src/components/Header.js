@@ -21,7 +21,7 @@ const Header = ({ theme, toggleTheme }) => {
       transition={{ duration: 0.5 }}
       className={`header ${scrolled ? 'scrolled' : ''}`}
     >
-      <a href="#" className="logo">Israel Orizu</a>
+      <a href="https://izzys-portfolio.netlify.app" className="logo">Israel Orizu</a>
       <div className="header-right">
         <a href="https://www.linkedin.com/in/israel-orizu-7467b0209/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
         <a href="https://github.com/Emmyginger" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
