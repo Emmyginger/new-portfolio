@@ -36,9 +36,9 @@ const Hero = () => {
                 className="hero-image" 
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 1, delay: 0.5 }} // Delay to appear with headline
+                transition={{ duration: 1, delay: 0.5 }} 
             >
-                <img src={profilePic} alt="Your Name" />
+                <img src={profilePic} alt="Israel Orizu" />
             </motion.div>
 
             <motion.h1

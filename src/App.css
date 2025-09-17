@@ -329,3 +329,72 @@ body.dark-mode .footer {
   border-top-color: #333;
 }
 
+/* --- RESPONSIVE DESIGN --- */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+  .animated-headline {
+    font-size: 2.5rem;
+  }
+  .hero-content p {
+    font-size: 1rem;
+  }
+  .project-carousel {
+    padding: 0;
+  }
+  
+  .about-container {
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+  }
+  .about-image {
+    width: 200px;
+    height: 200px;
+  }
+
+  
+  .hero-main-content {
+    flex-direction: column; 
+  }
+}
+
+/* --- Extra Small Devices (Phones) --- */
+@media (max-width: 480px) {
+  section {
+    padding: 4rem 1rem;
+  }
+  .header {
+    padding: 1rem;
+  }
+  .header .logo {
+    font-size: 1.2rem;
+  }
+  .header-right {
+    gap: 0.8rem;
+  }
+  .header-right a, .theme-switcher {
+    font-size: 1.1rem;
+  }
+  .animated-headline {
+    font-size: 2.2rem;
+  }
+  .section-title {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+  .skills-grid {
+    gap: 1rem;
+  }
+  .skill-card {
+    width: 120px;
+    padding: 1.5rem;
+  }
+  .contact-links {
+    gap: 1.5rem;
+  }
+  .contact-links a {
+    font-size: 2rem;
+  }
+}
