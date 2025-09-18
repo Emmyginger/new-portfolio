@@ -361,6 +361,7 @@ body.dark-mode .footer {
   .hero-main-content {
     flex-direction: column; 
   }
+  
 }
 
 /* --- Extra Small Devices (Phones) --- */
@@ -399,5 +400,11 @@ body.dark-mode .footer {
   }
   .contact-links a {
     font-size: 2rem;
+  }
+  .project-carousel {
+    padding: 0 !important; 
+  }
+  .project-carousel .slick-slide > div {
+    margin: 0 10px !important; 
   }
 }
