@@ -343,8 +343,9 @@ body.dark-mode .footer {
   .project-carousel {
     padding: 0;
   }
+  
    .project-card {
-    margin: 0 0.5rem; /* Reduce side margin slightly */
+    margin: 0 0.5rem; 
   }
   .about-container {
     flex-direction: column;

@@ -68,7 +68,7 @@ const Projects = () => {
                 <Slider {...settings}>
                     {projectData.map((project, index) => (
                         <div key={index} className="project-card">
-                            <img src={project.img} alt={project.title} />
+                            <img src={project.img} className="project-img" alt={project.title} />
                             <div className="project-info">
                                 <h3>{project.title}</h3>
                                 <p>{project.description}</p>
